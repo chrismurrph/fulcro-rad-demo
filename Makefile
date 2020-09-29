@@ -1,5 +1,5 @@
 cljs:
-	shadow-cljs -A:f3-dev:rad-dev:i18n-dev server
+	npx shadow-cljs -A:datomic server
 
 report:
 	npx shadow-cljs run shadow.cljs.build-report main report.html

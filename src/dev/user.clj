@@ -10,3 +10,7 @@
 
 (alter-var-root #'s/*explain-out* (constantly expound/printer))
 
+(comment
+  "Send these forms to REPL"
+  (clojure.core/require 'development)
+  (development/go))
